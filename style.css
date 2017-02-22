@@ -1,0 +1,62 @@
+body {
+    background-color: #000;
+    color: lightgray;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#plansza {
+    width: 100%;
+    margin: 50px 0;
+    min-height: 60px;
+    text-align: center;
+    font-size: 48px;
+}
+
+#szubienica {
+    width: 50%;
+    float: left;
+    min-height: 280px;
+    text-align: center;
+}
+
+#alfabet {
+    width: 50%;
+    float: left;
+    min-height: 280px;
+    text-align: center;
+}
+
+.litera {
+    float: left;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid gray;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.litera:hover {
+    background-color: #222;
+    color: white;
+    border: 3px solid white;
+}
+
+.reset {
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover {
+    color: white;
+}
